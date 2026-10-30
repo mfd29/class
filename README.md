@@ -6,6 +6,7 @@
 
 ## 新设计入口
 
+- [Transformer加速器v0.1设计文档](docs/Transformer加速器v0.1设计文档.md)：端口、功能块、定点规则、状态、资源与新版硬件流程图。
 - `rtl/`：INT8 单头注意力 + 两层 ReLU FFN 的可综合基线。
 - `docs/架构与数值约定.md`：接口、精度、数据流、FSM、周期和范围声明。
 - `scripts/run_tests.py`：Icarus 与 NumPy 全阶段逐元素自检。
